@@ -1,1 +1,76 @@
+#jogo{
+    width:625px;
+    height:550px;
+}
 
+.linha{
+    height:200px;
+    border-bottom:solid 3px;
+}
+
+.casa{
+    width:200px;
+    height:100%;
+    padding-top:10px;
+    padding-right:5px;
+    border-right:solid black 3px;
+    float:left;
+}
+
+.bloco{
+width:52px;
+height:52px;
+border:solid black 0.5px;
+float: left;
+}
+
+
+#bloco1,#bloco4, #bloco7{
+margin-left:15px;
+}
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li {
+float:left;
+}       
+
+li a {
+display: block;
+color:black;
+text-align:center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+ul.navegador {
+list-style-type: none;
+margin: 0;
+padding: 0;
+width:200px;
+border: 1px solid;
+}
+
+li a.navegador {
+display: block;
+padding: 0px 16px;
+text-decoration: none;
+}
+
+li.navegador{
+text-align: center;
+border-bottom: 1px solid;
+}
+
+li: last-child {
+border-bottom:none;
+}
+
+/*parte do css*/
