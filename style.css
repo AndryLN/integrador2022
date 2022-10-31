@@ -17,17 +17,6 @@
     float:left;
 }
 
-.bloco{
-width:52px;
-height:52px;
-border:solid black 0.5px;
-float: left;
-}
-
-
-#bloco1,#bloco4, #bloco7{
-margin-left:15px;
-}
 
 
 
