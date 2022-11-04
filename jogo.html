@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JV - Revolução Francesa</title>
+    <link rel="stylesheet" type="text/css" href="jogo.css">
+</head>
+<body>
+    <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="velha.css"/>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="engine.js"></script>
+</head>
+<body>
+  
+<div class = "container">
+    <ul>
+        <li><a href = "sec1">LOGIN</a></li>
+        <li><a href = "file:///D:/jogodavelha/velha.html">JOGUE NOVAMENTE</a></li>
+        <li><a href = "sec3">GUIA DE PERSONAGENS</a></li>
+        <li><a href = "sec4">REVOLUÇÃO FRANCESA</a></li>
+        <li><a href = "sec5">MANUAL DE JOGO</a></li>
+    </ul>
+</div>
+        <p id="lados"> Lado azul = X </p>
+        <div id="" align="center">
+            <button id="" onclick="clicarClero()"><img src="clero.jpg" alt="clero" heigth="150px" width="150px" id="img"></button>
+            <button id="" onclick="clicarBurgues()"><img src="burguesia.jpg" alt="burguesia" heigth="150px" width="150px" id="img"></button>
+        </div>
+        <p id="clero" class="blue"></p>
+        <p id="burguesia" class="blue"></p>
+        <p id="vs"> vs </p> 
+        <p id="ilumi" class="red"></p>
+        <p id="proleta" class="red"></p>
+        <div id="b2" align="center">
+            <button id="" onclick="clicarIlumi()"><img src="iluministas.jpg" alt="iluministas" height="150px" width="150px" id="img2"></button>
+            <button id="" onclick="clicarProleta()"><img src="proletariado.jpg" alt="proletariado" height="150px" width="150px" id="img2"></button>
+        </div>
+        <p id="lados"> Lado vermelho = O </p>
+
+<br><br>
+
+    <center>
+        <div id="fundo">
+            <div class="linha">
+                <div class="casa" id="1" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="2" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="3" onclick="escolher(this.id)">-</div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="4" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="5" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="6" onclick="escolher(this.id)">-</div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="7" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="8" onclick="escolher(this.id)">-</div>
+                <div class="casa" id="9" onclick="escolher(this.id)">-</div>
+            </div>
+        </div>  
+
+<br>
+<br>
+<br>
+    <div class="jogador">
+        <label>
+            Jogador:
+        </label>
+        <label id="jogador-selecionado">
+
+        </label>
+    </div>
+
+<br>
+
+    <div class="vencedor">
+        <label>
+            Vencedor:
+        </label>
+        <label id="vencedor-selecionado">
+        </label>
+    </div>
+
+<br>
+    <div>
+        <button onclick="reiniciar()">
+        Reiniciar
+        </button>
+    </div>
+    </center>
+    <script src="jogo.js"></script>
+</body>
+</html>
