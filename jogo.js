@@ -119,7 +119,7 @@ function checaSequencia(quadrado1, quadrado2, quadrado3) {
 function reiniciar() {
     vencedor = null;
     vencedorSelecionado.innerHTML = '';
-
+}
     for (var i = 1; i <= 9; i++) {
         var quadrado = document.getElementById(i);
 
@@ -145,4 +145,6 @@ function clicarProleta() {
     alert("Você escolheu os Revolucionários")
     document.getElementById("proleta").innerHTML = "Revolucionário"
     document.getElementById("fundo").style.display = "block";
- }
+}
+    
+
