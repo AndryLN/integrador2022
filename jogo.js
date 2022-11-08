@@ -96,6 +96,7 @@ function checaVencedor() {
 function mudarVencedor(quadrado) {
     vencedor = quadrado.innerHTML;
     vencedorSelecionado.innerHTML = vencedor;
+    alert("Parabéns "+vencedor+" voce venceu!")
 }
 
 function mudarCorQuadrado(quadrado1, quadrado2, quadrado3) {
@@ -127,8 +128,7 @@ function reiniciar() {
         quadrado.innerHTML = '-';
     }
     mudarJogador("X");
-}
-function clicarClero() {
+function clicarClero(el) {
     alert("Você escolheu os Absolutistas")
     document.getElementById("clero").innerHTML = "Absolutista"
  }
@@ -138,9 +138,11 @@ function clicarBurgues() {
  }
 function clicarIlumi() {
     alert("Você escolheu os Revolucionários")
-    document.getElementById("ilumi").innerHTML = "Revolucionário"
+    document.getElementById("ilumi").innerHTML = "Iluministas"
+    document.getElementById("fundo").style.display = "block";
  }
 function clicarProleta() {
     alert("Você escolheu os Revolucionários")
     document.getElementById("proleta").innerHTML = "Revolucionário"
+    document.getElementById("fundo").style.display = "block";
  }
