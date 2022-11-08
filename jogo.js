@@ -137,7 +137,7 @@ function clicarBurgues() {
     document.getElementById("burguesia").innerHTML = "Absolustista"
  }
 function clicarIlumi() {
-    alert("Você escolheu os Revolucionários")
+    alert("Você escolheu os Iluministas")
     document.getElementById("ilumi").innerHTML = "Iluministas"
     document.getElementById("fundo").style.display = "block";
  }
