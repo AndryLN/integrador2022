@@ -119,15 +119,16 @@ function checaSequencia(quadrado1, quadrado2, quadrado3) {
 function reiniciar() {
     vencedor = null;
     vencedorSelecionado.innerHTML = '';
-}
+
     for (var i = 1; i <= 9; i++) {
         var quadrado = document.getElementById(i);
 
         quadrado.style.background = "#FFFFFF";
         quadrado.style.color = "#FFFFFF";
         quadrado.innerHTML = '-';
-    }
+    }        
     mudarJogador("X");
+}
 function clicarClero(el) {
     alert("Você escolheu os Absolutistas")
     document.getElementById("clero").innerHTML = "Absolutista"
