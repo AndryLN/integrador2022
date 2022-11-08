@@ -110,7 +110,7 @@ function checaSequencia(quadrado1, quadrado2, quadrado3) {
 
     if (quadrado1.innerHTML !== '-' && quadrado1.innerHTML === quadrado2.innerHTML && quadrado2.innerHTML === quadrado3.innerHTML) {
         eigual = true;
-        alert("Parabéns ao vencedor")
+
     }
 
     return eigual;
