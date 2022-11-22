@@ -161,7 +161,7 @@ body{
     color: #fff;
 }
 #barra ul li a:hover{
-    background: #FFFF00;
+    background-color: #FFFF00;
     height: 18px;
     padding-top: 5px;
 }
