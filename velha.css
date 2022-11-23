@@ -88,3 +88,8 @@ body{
     height: 18px;
     padding-top: 5px;
 }
+fieldset{
+  margin: 6px 450px;
+  padding: 8px;
+
+}
