@@ -173,15 +173,15 @@ body{
     width: 30vh;
     height: 30vh;
     background-image: url("Luis XVI.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .botao2{
     width: 30vh;
     height: 30vh;
-    background-image: url("Maria Antonieta.jpg
-");
-    background-position: 45%;
+    background-image: url("mariaantonieta.jpeg");
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -189,7 +189,7 @@ body{
     width: 30vh;
     height: 30vh;
     background-image: url("robespiere.jpeg");
-    background-position: 50%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
 
@@ -197,6 +197,6 @@ body{
     width: 30vh;
     height: 30vh;
     background-image: url("danton.jpeg");
-    background-position: 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
 }
